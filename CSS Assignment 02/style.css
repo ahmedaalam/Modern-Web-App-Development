@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  color: rgb(29, 82, 161);
+  text-align: center;
+  text-shadow: 1px 1px 5px gray;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 2rem;
+  color: orangered;
+}
+
+i {
+  color: rgb(0, 44, 139);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+footer-text {
+  color: black;
+}
