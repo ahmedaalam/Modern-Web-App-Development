@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Assignment 01</title>
+  </head>
+  <body>
+    <h1>Javascript Assignment 01</h1>
+    <form>
+      <label>Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" />
+      <button onclick="checkPassword()" ="submit">Login</button>
+    </form>
+
+    <script>
+      // 1.Write a script to greet your website visitor using JS alert box.
+      alert("Welcome! We're glad to have you here.");
+
+      // 2.Write a script to display following message on your web page:
+      function checkPassword() {
+        const password = document.getElementById("password").vlaue;
+
+        if (password == "admin123") {
+          alert("Login Successful");
+        } else {
+          alert("Error! Please enter a valid password");
+        }
+      }
+
+      // 3.Write a script to display following message on your web page:
+      alert("Welcome to JS Land...\nHappy Coding!");
+
+      // 4.Write a message to display following messages in sequence:
+      alert("Welcome to JS Land...");
+      alert("Happy Coding!");
+
+      // 5.Generate the following message through browser's developer console:
+      console.log("Hello... i can run JS through my web browser's console");
+    </script>
+  </body>
+</html>
